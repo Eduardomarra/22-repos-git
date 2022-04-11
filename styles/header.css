@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.125rem 0.625rem;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    color: var(--gray-light);
+}
+
+.header .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.header .btn-git , .header .btn-comunity {
+    background: transparent;
+    padding: 1rem;
+}
+.header .btn-git a, .header .btn-comunity a{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: var(--gray-light);
+    background: transparent;
+    padding: 1rem;
+}
+
+.header .btn-comunity {
+    border: 1px solid var(--purple);
+    border-radius: 6px;
+}
