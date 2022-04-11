@@ -1,0 +1,27 @@
+.profile {
+    padding:4rem 0;
+}
+.profile h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--green);
+    padding: 0 0.625rem;
+}
+.profile h1 {
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    color: var(--gray-light);
+    padding: 2rem 0.625rem;
+}
+.profile p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: var(--gray);
+    padding: 0 0.625rem;
+    max-width: 850px;
+}
