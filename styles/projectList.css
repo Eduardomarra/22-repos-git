@@ -61,7 +61,14 @@
 
 .btn .btn-demo{
     background: var(--green);
+    transition: all 0.3s;
 }
+.btn .btn-demo:hover{
+    background: transparent;
+    border: 1px solid var(--green);
+    filter: brightness(0.8);
+}
+
 
 .btn .btn-demo a{
     font-family: 'DM Sans';
@@ -70,10 +77,19 @@
     line-height: 1.5rem;
     text-transform: uppercase;
 }
+.btn .btn-demo a:hover{
+    color: var(--gray-light) 
+}
 
 .btn .btn-github {
     background: transparent;
     border: 1px solid var(--green);
+    transition: all 0.3s;
+}
+.btn .btn-github:hover {
+    background: var(--green);
+    filter: brightness(0.8);
+    border: 0;
 }
 
 .btn .btn-github a{
