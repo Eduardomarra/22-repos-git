@@ -32,9 +32,25 @@
     color: var(--gray-light);
     background: transparent;
     padding: 1rem;
+    transition: color 0.5s;
 }
-
 .header .btn-comunity {
     border: 1px solid var(--purple);
     border-radius: 6px;
+}
+.header .btn-git a:hover, .header .btn-comunity a:hover{
+    color: var(--green);
+   
+}
+.header .btn-comunity {
+    border: 1px solid var(--purple);
+    border-radius: 6px;
+    transition: border 0.5s;
+}
+.header .btn-git {
+    transition: border 0.5s;
+    border-radius: 5px;
+}
+.header .btn-comunity:hover, .header .btn-git:hover {
+    border: 1px solid var(--green);
 }

@@ -1,5 +1,5 @@
 .profile {
-    padding:4rem 0;
+    padding: 4rem 0;
 }
 .profile h2 {
     font-weight: 700;
@@ -9,13 +9,18 @@
     text-transform: uppercase;
     color: var(--green);
     padding: 0 0.625rem;
+    animation: show-h2 0.5s forwards;
+    opacity: 0;
 }
 .profile h1 {
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 4.5rem;
     color: var(--gray-light);
     padding: 2rem 0.625rem;
+    animation: show-h1 0.5s 0.5s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
 }
 .profile p {
     font-weight: 500;
@@ -23,5 +28,37 @@
     line-height: 2rem;
     color: var(--gray);
     padding: 0 0.625rem;
-    max-width: 850px;
+    max-width: 800px;
+    animation: show-p 0.5s ease 1s forwards;
+    opacity: 0;
+}
+
+@keyframes show-h2 {
+    from{
+        transform:translateX(-400px)
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0)
+    }
+}
+
+@keyframes show-h1 {
+    from{
+        transform:translateX(-400px)
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0)
+    }
+}
+
+@keyframes show-p {
+    from{
+        transform:translateX(-400px)
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0)
+    }
 }

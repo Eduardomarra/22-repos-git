@@ -1,0 +1,177 @@
+@media screen and (max-width: 820px) {
+
+    /*----HEADER----*/    
+    .header h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .header .btn {
+        gap: 1rem;
+    }
+    /*----FINAL HEADER----*/
+
+    /*----PROFILE----*/
+    .profile h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .profile p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        max-width: 650px;
+    }
+    /*----FINAL PROFILE----*/
+
+    /*----PROJECTLIST----*/
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 0 0.625rem;
+    }
+    .card-item .imgProject {
+        width: auto;
+        height: 150px;
+    }
+    /*----FINAL PROJECTLIST----*/
+    
+}
+
+@media screen and (min-width: 376px) and (max-width: 624px) {
+    .header h1 {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    .header .btn {
+        gap: 1rem;
+    }
+
+    .header .btn {
+        gap: 1rem;
+    }
+    .header .btn-git , .header .btn-comunity {
+        background: transparent;
+        padding: 0.8rem;
+    }
+    .header .btn-git a, .header .btn-comunity a{
+       
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        padding: 0.5rem;
+    }
+
+    .profile {
+        padding: 3rem 0;
+    }
+    .profile h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        padding: 1.5rem 0.625rem;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 305px);
+        gap: 1rem;
+        padding: 0 0.625rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    /*----HEADER----*/
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        padding: 2rem 0.625rem;
+    }
+    .header h1 {
+        font-size: 2rem;
+        line-height: 1.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .header .btn {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+    .header .btn-git , .header .btn-comunity {
+        padding: 0.5rem;
+    }
+    .header .btn-git a, .header .btn-comunity a{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        padding: 0.5rem;
+    }
+    /*----FINAL HEADER----*/
+
+    /*----PROFILE----*/
+    .profile {
+        padding: 2rem 0;
+    }
+    .profile h2 {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .profile h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: var(--gray-light);
+        padding: 2rem 0.625rem;
+    }
+    .profile p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        padding: 0 0.625rem;
+        max-width: 320px;
+    }
+    /*----FINAL PROFILE----*/
+
+    /*----PROJECTLIST----*/
+    .cards{
+        grid-template-columns: 320px;
+        gap: 0.5rem;
+        padding: 0 0.625rem;
+        margin-right: 0.625rem;
+    }
+    .card-item{
+        padding: 0.5rem;
+    }
+    .card-item .imgProject {
+        width: auto;
+        height: 200px;
+    }
+    .card-item h2 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+        margin-top: 1rem;
+    }
+    .card-item p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        margin: 0.5rem 0;
+    }
+    .card-item .btn {
+        gap: 0.5rem; 
+        margin-top: 1.5rem; 
+        justify-content: center;
+    }
+    .btn .btn-demo, .btn .btn-github {
+        width: 140px;
+        height: 35px;
+    }
+    /*----FINAL PROJECTLIST----*/
+
+    /*----FOOTER----*/
+    footer .container{
+        justify-content: flex-start;
+        gap: 1.5rem;
+        padding: 1.5rem 0.625rem;
+    }
+    footer .container a {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    /*----FINAL FOOTER----*/
+}

@@ -15,12 +15,11 @@
 body {
     font-family: 'IBM Plex Mono', sans-serif;
     background: var(--dark);
-    height: 100vh;
-    width: 100vw;
 }
 .container {
     max-width: 1090px;
     margin: 0 auto;
+    transition: all 0.5s;
 }
 button {
     cursor: pointer;

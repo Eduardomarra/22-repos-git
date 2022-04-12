@@ -1,0 +1,96 @@
+.container.show {
+    height: 1000px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 0.625rem;
+}
+
+.card-item{
+    border: 1px solid var(--purple);
+    border-radius: 5px;
+    padding: 1rem;
+    animation: show-cards-item 0.8s 1.6s forwards;
+    opacity: 0;
+}
+
+.card-item .imgProject {
+    width: auto;
+    height: 220px;
+}
+.card-item .imgProject img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card-item h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--gray-light);
+    margin-top: 1.5rem;
+}
+
+.card-item p {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--gray);
+    margin: 1rem 0;
+}
+
+.card-item .btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem; 
+    margin-top: 3rem; 
+}
+
+.btn .btn-demo, .btn .btn-github {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.btn .btn-demo{
+    background: var(--green);
+}
+
+.btn .btn-demo a{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+.btn .btn-github {
+    background: transparent;
+    border: 1px solid var(--green);
+}
+
+.btn .btn-github a{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: var(--gray-light);
+}
+
+@keyframes show-cards-item {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
