@@ -14,7 +14,7 @@
     border: 1px solid var(--purple);
     border-radius: 5px;
     padding: 1rem;
-    animation: show-cards-item 0.8s 1.6s forwards;
+    animation: show-cards-item 0.8s 1s forwards;
     opacity: 0;
 }
 
@@ -68,7 +68,6 @@
     border: 1px solid var(--green);
     filter: brightness(0.8);
 }
-
 
 .btn .btn-demo a{
     font-family: 'DM Sans';
