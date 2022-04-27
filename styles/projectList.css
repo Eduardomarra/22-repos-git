@@ -63,9 +63,7 @@
     background: var(--green);
     transition: all 0.3s;
 }
-.btn .btn-demo:hover{
-    background: transparent;
-    border: 1px solid var(--green);
+.btn .btn-demo:hover {
     filter: brightness(0.8);
 }
 
@@ -76,10 +74,6 @@
     line-height: 1.5rem;
     text-transform: uppercase;
 }
-.btn .btn-demo a:hover{
-    color: var(--gray-light) 
-}
-
 .btn .btn-github {
     background: transparent;
     border: 1px solid var(--green);
