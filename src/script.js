@@ -36,7 +36,6 @@ const cards = document.querySelector('.container.show');
 const showProject = document.querySelector('.show-project');
 const inner = "Ver menos"
 const inner2 = "Ver mais"
-console.log(showProject)
 
 showProject.addEventListener("click", openCards)
 
